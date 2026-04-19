@@ -119,10 +119,12 @@ public class MathApp {
                 positiveAbsolute + ".");
 
 
-
-
         //display question 7
         System.out.println("Question 7:");
+        //create a variable for random number and add math
+        double myRandom = random();
+        // display the random value
+        System.out.println("The random value I received was " + myRandom + ".");
 
         //display question 8
         System.out.println("Question 8:");
