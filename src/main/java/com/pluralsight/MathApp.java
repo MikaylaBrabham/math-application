@@ -128,5 +128,25 @@ public class MathApp {
 
         //display question 8
         System.out.println("Question 8:");
+        // create variables for amount milliseconds in seconds
+        long seconds = 60;
+        // create variables for amount seconds in minute
+        long minutes = 60;
+        // create variables for amount minutes in hour
+        long hour = 60;
+        // create variables for amount hours in a day
+        long day = 24;
+        //create variable for the given amount of days
+        long givenDay = 24;
+        // do math to get amount minutes in 24 days and store in new variable
+        long minutesInDay = (day * minutes) * givenDay;
+        //display total minutes in 24 days
+        System.out.println("There are " + minutesInDay + (" minutes in 24 days!"));
+        //display amount milliseconds in 24 days
+        long milliSecondDays = (seconds * 1000 * minutesInDay);
+        //display amount milliseconds in 24 days
+        System.out.println("There are " + milliSecondDays + " Milliseconds in 24 days!");
+
+
     }
 }
