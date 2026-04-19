@@ -77,11 +77,45 @@ public class MathApp {
 
 
         //display question 4
+        System.out.println("Question 4:");
+
+        //display given variable information of 5.0 float
+        double givenVariable = 5.0;
+        // complete math for square root and assign variable
+        double squareRootGivenVar = Math.sqrt(givenVariable);
+        //display square root of variable in a sentence
+        System.out.println(" The square root of the given variable is "
+                + Math.round(squareRootGivenVar) + "." );
+
 
         //display question 5
+        System.out.println("Question 5:");
+        // create variables for the first given points
+        double aPointX = 5, aPointY = 10;
+        // create variables for the second given points
+        double bPointX = 85, bPointY = 50;
+        // Math to get the distance using Math.power & math.Power and put into variable totalDistance
+        //start first part of math (x2-x1)^2 + (y2 - y1)^2
+        double differenceTotal = (Math.pow(bPointX - aPointX, 2)) + Math.pow(bPointY - aPointY, 2);
+        // square roots the first part
+        double totalDistance = Math.round(Math.sqrt(differenceTotal));
+
+        System.out.println("The total distance between the two given points are " + totalDistance + ".");
+
+
+
+
+        // create variable for the first given points
+
 
         // display question 6
+        System.out.println("Question 6:");
+
+
+        //display question 7
+        System.out.println("Question 7:");
 
         //display question 8
+        System.out.println("Question 8:");
     }
 }
