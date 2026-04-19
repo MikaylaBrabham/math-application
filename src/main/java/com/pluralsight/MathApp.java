@@ -30,7 +30,6 @@ public class MathApp {
         //initial salary variables any value using system input and output
        float bobSalary = 82000;
 
-
         // create variable for gary salary in float garySalary
         //initial salary variables any value using system input and output
         float garySalary = 67500;
@@ -47,16 +46,42 @@ public class MathApp {
         System.out.println("The highest salary is $" + highestSalary + ", which belongs to Bob!");
 
 
+    //Display Question 2 using sout
+        System.out.println("Question 3:");
+
+        // set variable for price of the car
+        double carPrice = 24123.89;
+
+        // set variable for price of the truck
+        double truckPrice = 38000.25;
+
+        //complete comparison to get cheapest option
+        double cheapestValue = min(carPrice, truckPrice);
+
+        // display smallest value of the two variables
+        System.out.println("The car has the cheapest value of " + Math.round(cheapestValue) + ".");
+
 
 
         //Display Question 3 using sout
         System.out.println("Question 3:");
+
         // radius of circle is given float and the math is area = pi * r^2
         double radius = 7.25;
+
         //diameter = Math.pow(radius, 2) and area = Math.PI * diameter;
         double area = (Math.pow(radius, 2)) * Math.PI;
+
         // display answer
         System.out.println("The area of the circle is " + Math.round(area));
 
+
+        //display question 4
+
+        //display question 5
+
+        // display question 6
+
+        //display question 8
     }
 }
