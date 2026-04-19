@@ -100,16 +100,25 @@ public class MathApp {
         // square roots the first part
         double totalDistance = Math.round(Math.sqrt(differenceTotal));
 
-        System.out.println("The total distance between the two given points are " + totalDistance + ".");
-
-
-
-
-        // create variable for the first given points
+        // display total distance
+        System.out.println("The total distance between the two given points are "
+                + totalDistance + ".");
 
 
         // display question 6
         System.out.println("Question 6:");
+
+        // create variable for given variable
+       double myGivenNumber = -3.8;
+
+       // create a variable to store math to get positive absolute value
+        double positiveAbsolute = Math.abs(myGivenNumber);
+
+        //display the result
+        System.out.println("The positive absolute value for the given value -3.8 is " +
+                positiveAbsolute + ".");
+
+
 
 
         //display question 7
