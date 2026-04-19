@@ -29,19 +29,14 @@ public class MathApp {
         // create variable for bob salary in float bobSalary
         //initial salary variables any value using system input and output
        float bobSalary = 82000;
-
         // create variable for gary salary in float garySalary
         //initial salary variables any value using system input and output
         float garySalary = 67500;
-
         // create variable called highestSalary
         float highestSalary;
-
         // do math using Math.Max to determines who salary is higher; stored in highestSalary
         highestSalary = Math.max(bobSalary, garySalary);
-
         // the math here is average = (a + b) / 2
-
         // display highestSalary using "The highest salary is " + highestSalary
         System.out.println("The highest salary is $" + highestSalary + ", which belongs to Bob!");
 
@@ -51,13 +46,10 @@ public class MathApp {
 
         // set variable for price of the car
         double carPrice = 24123.89;
-
         // set variable for price of the truck
         double truckPrice = 38000.25;
-
         //complete comparison to get cheapest option
         double cheapestValue = min(carPrice, truckPrice);
-
         // display smallest value of the two variables
         System.out.println("The car has the cheapest value of " + Math.round(cheapestValue) + ".");
 
@@ -68,10 +60,8 @@ public class MathApp {
 
         // radius of circle is given float and the math is area = pi * r^2
         double radius = 7.25;
-
         //diameter = Math.pow(radius, 2) and area = Math.PI * diameter;
         double area = (Math.pow(radius, 2)) * Math.PI;
-
         // display answer
         System.out.println("The area of the circle is " + Math.round(area) + ".");
 
@@ -91,6 +81,7 @@ public class MathApp {
         //display question 5
         System.out.println("Question 5:");
         // create variables for the first given points
+
         double aPointX = 5, aPointY = 10;
         // create variables for the second given points
         double bPointX = 85, bPointY = 50;
@@ -110,10 +101,8 @@ public class MathApp {
 
         // create variable for given variable
        double myGivenNumber = -3.8;
-
        // create a variable to store math to get positive absolute value
         double positiveAbsolute = Math.abs(myGivenNumber);
-
         //display the result
         System.out.println("The positive absolute value for the given value -3.8 is " +
                 positiveAbsolute + ".");
@@ -121,6 +110,7 @@ public class MathApp {
 
         //display question 7
         System.out.println("Question 7:");
+
         //create a variable for random number and add math
         double myRandom = random();
         // display the random value
@@ -128,6 +118,7 @@ public class MathApp {
 
         //display question 8
         System.out.println("Question 8:");
+
         // create variables for amount milliseconds in seconds
         long seconds = 60;
         // create variables for amount seconds in minute
@@ -138,10 +129,12 @@ public class MathApp {
         long day = 24;
         //create variable for the given amount of days
         long givenDay = 24;
+
         // do math to get amount minutes in 24 days and store in new variable
         long minutesInDay = (day * minutes) * givenDay;
         //display total minutes in 24 days
         System.out.println("There are " + minutesInDay + (" minutes in 24 days!"));
+
         //display amount milliseconds in 24 days
         long milliSecondDays = (seconds * 1000 * minutesInDay);
         //display amount milliseconds in 24 days
