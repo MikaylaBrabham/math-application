@@ -73,7 +73,7 @@ public class MathApp {
         double area = (Math.pow(radius, 2)) * Math.PI;
 
         // display answer
-        System.out.println("The area of the circle is " + Math.round(area));
+        System.out.println("The area of the circle is " + Math.round(area) + ".");
 
 
         //display question 4
